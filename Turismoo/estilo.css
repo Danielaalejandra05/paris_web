@@ -1,0 +1,133 @@
+body { 
+    font-family: 'EB Garamond', serif;
+  text-align: center;
+} 
+
+h1, h2 {
+    text-decoration: Narrow;
+    font-family: 'EB Garamond', serif;
+    font-style: oblique;
+    text-align: center;
+    } 
+    header {
+        background-color: rgb(51, 178, 255);
+        padding: 20px;
+        text-align: center;
+      }
+      
+      nav ul {
+        font-family: 'EB Garamond', serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      
+      p {
+        font-family: 'Abhaya Libre', serif;
+        font-size: large;
+        font-style: italic;
+        font-style: oblique;
+        color: #000000;
+      }
+      
+      
+      nav ul {
+        font-family: 'Bitter', serif;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav li {
+        font-family: 'Bitter', serif;
+        display: inline;
+        margin-right: 20px;
+      }
+      
+      nav a {
+        font-family: 'Bitter', serif;
+        color:#ab375d;
+        text-decoration: none;
+        font-weight: bold;
+    
+      }
+      
+      nav a:hover {
+        font-family: 'Bitter', serif;
+        text-decoration: underline;
+      }
+      
+      main {
+        background-color: rgb(245, 242, 234);
+        padding: 20px;
+      }
+      
+      section {
+        background-color: rgb(215, 173, 240);
+        
+      }
+        #seccion2 {
+          font-family: 'Libre Baskerville', sans-serif;
+          color: #430049;
+          margin-bottom: 40px;
+        }
+        
+        #seccion3 {
+            font-family: 'Libre Baskerville', sans-serif;
+            color: #430049;
+            margin-bottom: 40px;
+            background-color: rgb(143, 133, 165);
+          }
+
+          #seccion1 {
+            font-family: 'Libre Baskerville', sans-serif;
+            color: #430049;
+            margin-bottom: 40px;
+            background-color: rgb(143, 133, 165);
+          }
+      .row {
+        display: flex;
+        justify-content:  space-evenly;
+      }  
+
+      .col {
+        background-color: darkmagenta;
+        width: 400px;
+        padding: 18px;
+      
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      input {
+        padding: 8px;
+      }
+      
+      label{
+        color: white;
+      }
+      
+      button {
+        padding: 8px;
+        background-color: rgb(215, 173, 240);
+        
+      }
+      
+      button:hover {
+        background-color: rgb(42, 0, 66);
+        color: white;
+      }
+      
+      .col p {
+        color: white;
+      }
+      
+      footer {
+        background-color: rgb(215, 173, 240);
+        padding: 10px;
+        text-align: center;
+      }
